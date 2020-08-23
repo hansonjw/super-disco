@@ -44,7 +44,6 @@ var loadItems = function() {
 
         for (const timeSlot in todoItems){
             jQuery("#" + timeSlot).find("textarea").html(todoItems[timeSlot]);
-            console.log(jQuery("#" + timeSlot).html());
         } 
     }
 };
